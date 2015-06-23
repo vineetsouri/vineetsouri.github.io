@@ -1,0 +1,17 @@
+#blog {
+  .post {
+    margin-bottom: 2em;
+
+    &:first-child {
+      background-color: #F2F1EF;
+    }
+
+    h2 {
+      margin-top: 0.2em;
+
+      a {
+        color: $dark-grey;
+      }
+    }
+  }
+}

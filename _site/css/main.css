@@ -1,0 +1,160 @@
+body {
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  padding-bottom: 60px;
+  min-height: 100vh; }
+
+.vcenter {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+  color: #2C3E50; }
+
+header nav.navbar.navbar-default {
+  background-color: #2C3E50; }
+  header nav.navbar.navbar-default .navbar-brand {
+    padding: 3px 8px;
+    position: relative; }
+    header nav.navbar.navbar-default .navbar-brand::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: -50px;
+      width: 50px;
+      height: 50px;
+      background-image: url("../images/layout/ramp-nav.gif"); }
+    header nav.navbar.navbar-default .navbar-brand, header nav.navbar.navbar-default .navbar-brand:hover, header nav.navbar.navbar-default .navbar-brand:visited, header nav.navbar.navbar-default .navbar-brand:active {
+      background-color: #F4D03F;
+      color: #2C3E50;
+      text-decoration: none; }
+    header nav.navbar.navbar-default .navbar-brand .name {
+      display: inline-block;
+      transition: all 0.3s ease-in; }
+    header nav.navbar.navbar-default .navbar-brand:hover .name {
+      transform: scale(1.1, 1.1); }
+    header nav.navbar.navbar-default .navbar-brand img {
+      display: inline-block;
+      border: 2px solid #ECF0F1;
+      margin-right: 10px; }
+  header nav.navbar.navbar-default .navbar-nav li a, header nav.navbar.navbar-default .navbar-nav li a:hover, header nav.navbar.navbar-default .navbar-nav li a:visited, header nav.navbar.navbar-default .navbar-nav li a:active {
+    color: #ECF0F1;
+    font-weight: 300;
+    display: inline-block;
+    transition: all 0.3s ease-in; }
+  header nav.navbar.navbar-default .navbar-nav li a:hover {
+    transform: scale(1.1, 1.1); }
+
+.skill {
+  font-size: 30px;
+  color: #2C3E50; }
+
+#skills ul {
+  list-style-type: none;
+  padding: 0; }
+
+.rating {
+  display: block;
+  float: right; }
+  .rating .fill {
+    color: #22a39f;
+    vertical-align: middle; }
+
+footer {
+  background-color: #2C3E50;
+  color: #ECF0F1;
+  text-align: center;
+  padding: 15px 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+
+body#landing-page {
+  padding-bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden; }
+
+#land .photo-container {
+  background-color: #F4D03F;
+  color: #2C3E50;
+  height: 100vh;
+  text-align: center; }
+  #land .photo-container img#bv-dp {
+    width: 30vmin;
+    border: 3px solid #ECF0F1; }
+  #land .photo-container h1 {
+    font-size: 5vmin; }
+  #land .photo-container .social-icons {
+    font-size: 3vmin;
+    margin-top: 2em; }
+    #land .photo-container .social-icons a {
+      margin: 0 0.3em;
+      width: 2.5em;
+      line-height: 2.5em;
+      display: inline-block;
+      transition: all 0.3s ease-in; }
+      #land .photo-container .social-icons a, #land .photo-container .social-icons a:hover, #land .photo-container .social-icons a:visited, #land .photo-container .social-icons a:active {
+        color: #ECF0F1;
+        text-decoration: none;
+        background-color: #2C3E50;
+        border-radius: 50%; }
+      #land .photo-container .social-icons a:hover {
+        border-radius: 5px;
+        transform: rotate(360deg); }
+#land #ramp {
+  height: 100vh;
+  background-image: url("../images/land/ramp-bg.gif");
+  background-size: 100% 100%; }
+#land .about-container {
+  background-color: #2C3E50;
+  color: #ECF0F1;
+  padding-left: 0;
+  height: 100vh; }
+  #land .about-container h2 {
+    font-size: 6vmin;
+    font-weight: 300;
+    color: #ECF0F1; }
+  #land .about-container p {
+    font-weight: 300;
+    font-size: 3vmin;
+    width: 35vw; }
+  #land .about-container a.read-more {
+    font-weight: 300;
+    padding: 0.3em 1em;
+    border: 1px solid #ECF0F1;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 1em;
+    display: inline-block;
+    font-size: 2.5vmin;
+    background-color: transparent;
+    transition: background-color 0.3s ease-in; }
+    #land .about-container a.read-more, #land .about-container a.read-more:hover, #land .about-container a.read-more:visited, #land .about-container a.read-more:active {
+      color: #ECF0F1;
+      text-decoration: none; }
+    #land .about-container a.read-more:hover {
+      background-color: rgba(255, 255, 255, 0.2); }
+
+#blog .post {
+  margin-bottom: 2em; }
+  #blog .post:first-child {
+    background-color: #F2F1EF; }
+  #blog .post h2 {
+    margin-top: 0.2em; }
+    #blog .post h2 a {
+      color: #2C3E50; }
+
+.contact {
+  font-family: 'Tangerine', serif;
+  font-size: 54px;
+  text-shadow: 4px 4px 4px #aaa;
+  font-weight: 500; }
+
+.contact-paragraph {
+  font-family: 'Tangerine', serif;
+  font-size: 40px;
+  text-shadow: 4px 4px 4px #aaa; }
