@@ -62,6 +62,16 @@ header nav.navbar.navbar-default {
     color: #22a39f;
     vertical-align: middle; }
 
+#project .hidden-xs {
+  font-size: 10px; }
+
+.row {
+  margin-right: -47px;
+  margin-left: -81px; }
+
+.about-paragraph {
+  font-size: 20px; }
+
 footer {
   background-color: #2C3E50;
   color: #ECF0F1;
@@ -158,3 +168,6 @@ body#landing-page {
   font-family: 'Tangerine', serif;
   font-size: 40px;
   text-shadow: 4px 4px 4px #aaa; }
+
+.contact-icons {
+  margin-left: 71px; }

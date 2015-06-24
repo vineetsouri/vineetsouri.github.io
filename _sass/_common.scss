@@ -75,7 +75,7 @@ header {
 }
 
 .skill{
-    font-size: 30px;
+  font-size: 30px;
   color: $dark-grey;
 }
 
@@ -91,6 +91,19 @@ header {
     color: #22a39f;
     vertical-align: middle;
   }
+}
+
+#project .hidden-xs{
+  font-size: 10px;
+}
+
+.row {
+  margin-right: -47px;
+  margin-left: -81px;
+}
+
+.about-paragraph{
+  font-size: 20px;
 }
 
 footer {
