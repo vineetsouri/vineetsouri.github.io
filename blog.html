@@ -1,23 +1,22 @@
 ---
-layout: default
+layout: page
+title: My Blog
 permalink: /blog/
 ---
-
 <div id="blog">
-  <h1 class="page-heading">Blog</h1>
+  {% for post in site.posts %}
+    <div class="post">
+      <div class="post-when">{{ post.date | date: "<span class='post-date'>%-d</span><br><span class='post-month'>%b</span>" }}</div>
 
-  <div class="post-list">
-    {% for post in site.posts %}
-      <div class="post">
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
+      <div class="post-details">
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+
+        <div class="excerpt">{{post.excerpt}}</div>
+
+        <a href="{{ post.url | prepend: site.baseurl }}" class="read-more">Read more</a>
       </div>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+    </div>
+  {% endfor %}
 </div>
