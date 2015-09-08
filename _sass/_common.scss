@@ -75,6 +75,7 @@ header {
 }
 
 .skill{
+  font-weight: 100;
   font-size: 30px;
   color: $dark-grey;
 }
@@ -88,7 +89,7 @@ header {
   display: block;
   float: right;
   .fill{
-    color: #22a39f;
+    color: #CAA617;
     vertical-align: middle;
   }
 }
@@ -115,4 +116,12 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+#intro{
+  font-size: 1.5em;
+  font-weight: 100;
+}
+#imp{
+  font-weight: 400;
 }

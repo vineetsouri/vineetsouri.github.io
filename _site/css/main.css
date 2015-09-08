@@ -48,6 +48,7 @@ header nav.navbar.navbar-default {
     transform: scale(1.1, 1.1); }
 
 .skill {
+  font-weight: 100;
   font-size: 30px;
   color: #2C3E50; }
 
@@ -59,7 +60,7 @@ header nav.navbar.navbar-default {
   display: block;
   float: right; }
   .rating .fill {
-    color: #22a39f;
+    color: #CAA617;
     vertical-align: middle; }
 
 #project .hidden-xs {
@@ -77,6 +78,13 @@ footer {
   bottom: 0;
   left: 0;
   right: 0; }
+
+#intro {
+  font-size: 1.5em;
+  font-weight: 100; }
+
+#imp {
+  font-weight: 400; }
 
 body#landing-page {
   padding-bottom: 0;
