@@ -4,6 +4,17 @@ body {
   padding-bottom: 60px;
   min-height: 100vh; }
 
+.panel {
+  border-color: #2C3E50; }
+
+.panel-primary .panel-heading {
+  padding: 8px 15px;
+  border-color: #2C3E50;
+  background-color: #2C3E50; }
+
+.panel-title {
+  font-size: 36px; }
+
 .vcenter {
   position: relative;
   top: 50%;
@@ -52,22 +63,8 @@ header nav.navbar.navbar-default {
   font-size: 30px;
   color: #2C3E50; }
 
-#skills ul {
-  list-style-type: none;
-  padding: 0; }
-
-.rating {
-  display: block;
-  float: right; }
-  .rating .fill {
-    color: #CAA617;
-    vertical-align: middle; }
-
 #project .hidden-xs {
   font-size: 10px; }
-
-.about-paragraph {
-  font-size: 20px; }
 
 footer {
   background-color: #2C3E50;
@@ -79,15 +76,32 @@ footer {
   left: 0;
   right: 0; }
 
-#intro {
+.panel-body #intro {
   font-size: 1.5em;
-  font-weight: 100; }
+  font-weight: 100;
+  color: black; }
 
 #imp {
   font-weight: 400; }
 
-#calci {
-  float: left; }
+.block {
+  display: inline-block; }
+
+.skill_box {
+  display: block; }
+
+.skill_name {
+  display: inline-block;
+  text-align: center; }
+
+.skill_rating {
+  width: 90%;
+  display: inline-block;
+  text-align: center; }
+
+.projects {
+  display: inline-block;
+  text-align: center; }
 
 body#landing-page {
   padding-bottom: 0;

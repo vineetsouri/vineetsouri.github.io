@@ -5,6 +5,21 @@ body {
   min-height: 100vh;
 }
 
+.panel{
+  border-color: $dark-grey;
+}
+.panel-primary{
+  .panel-heading{
+    padding: 8px 15px;
+    border-color: $dark-grey;
+    background-color: $dark-grey;
+  }
+}
+
+.panel-title{
+  font-size: 36px;
+}
+
 .vcenter {
   position: relative;
   top: 50%;
@@ -80,19 +95,19 @@ header {
   color: $dark-grey;
 }
 
-#skills ul{
-  list-style-type: none;
-  padding: 0;
-}
+// #skills ul{
+//   list-style-type: none;
+//   padding: 0;
+// }
 
-.rating{
-  display: block;
-  float: right;
-  .fill{
-    color: #CAA617;
-    vertical-align: middle;
-  }
-}
+// .rating{
+//   display: block;
+//   float: right;
+//   .fill{
+//     color: #CAA617;
+//     vertical-align: middle;
+//   }
+// }
 
 #project .hidden-xs{
   font-size: 10px;
@@ -103,9 +118,6 @@ header {
 //   margin-left: -81px;
 // }
 
-.about-paragraph{
-  font-size: 20px;
-}
 
 footer {
   background-color: $dark-grey;
@@ -118,14 +130,38 @@ footer {
   right: 0;
 }
 
-#intro{
-  font-size: 1.5em;
-  font-weight: 100;
+.panel-body{
+  #intro{
+    font-size: 1.5em;
+    font-weight: 100;
+    color: black;
+  }
 }
 #imp{
   font-weight: 400;
 }
 
-#calci{
-  float: left;
+
+.block{
+  display: inline-block;
+}
+
+.skill_box{
+  display: block;
+}
+
+.skill_name{
+  display: inline-block;
+  text-align: center;
+}
+
+.skill_rating{
+  width: 90%;
+  display: inline-block;
+  text-align: center; 
+}
+
+.projects{
+  display: inline-block;
+  text-align: center;
 }
